@@ -1,0 +1,357 @@
+html, body{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  color: black;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: auto;
+   
+}
+.menu a:hover {
+  color: #FA7E0D;}
+
+  
+#logo{
+  padding-top: 10px;
+  padding-bottom: 0px;
+ 
+  width: 100%;
+  height: 100%;
+  display: flex;
+  
+}
+
+#logo a{
+  height: 100%;
+  width: 100%;
+}
+
+#fazerLogin {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color:#21316B ;
+  box-shadow: 3px 3px 3px black;
+  text-shadow: blanchedalmond 1px 1px 1px;
+  
+}
+
+header{
+  width: 100%;
+  background-image: url(fundotijolo.jpg);
+}
+
+
+.menu ul{
+list-style: none;
+position: relative;
+}
+.menu ul li{
+        width: 150px;
+        float: left;
+        border-radius: 20px;
+        margin-top: 5px;
+        }
+        .menu{
+          width: 100%;
+          height: 70px;
+          background-color: #3D3D94;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-top: -10px;
+
+        
+        }
+        .menu a{
+          font-size: 22px;
+          padding: 15px;
+          display: block;
+          text-decoration: none;
+          text-align: center;
+          background-color: #3D3D94;
+          color: white;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          text-shadow: 2px 2px 2px black;
+          font-weight: bolder;
+          text-transform: uppercase;
+        }
+
+
+
+
+
+.menu ul ul{
+
+  position: absolute;
+  visibility: hidden;
+}
+.menu ul li:hover ul{ 
+visibility: visible;
+
+}
+.menu ul ul li{
+  float: none;
+  border-bottom: solid 1px #1a1e2c;
+}
+
+
+
+
+
+#container1{
+  margin-left:20px ;
+  margin-right: 20px;
+  margin-top: 20px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+height: auto;
+border: 2px darkred;
+box-shadow: black 2px 2px 2px;
+row-gap: 35px;
+column-gap: 35px;
+padding: 0px;
+}
+
+
+#footer{
+  background-color: black;
+height: 50px;
+width: 100%;
+
+
+
+}
+.prod{
+border: black 2px;
+background-color: white;
+padding: 2px;
+box-shadow: black 5px 5px 5px;
+border-radius: 5pxpx;
+border: 3px solid #000000;
+}
+
+.prod:hover{
+  border-color: chartreuse;
+}
+
+.legendaProd{
+color: black;
+
+padding: 0;
+border: 0;
+
+}
+#logoSerra{
+width: 50%;
+height: 50%;
+border: 2px black;
+
+}
+.lista{
+    text-decoration: none;
+width: 100%;
+height: 100%;
+display: inline;
+padding: 10px 5px 5px 10px;
+display: flex;
+justify-content: space-between;
+height: 50px;
+color: #fff;
+font-size: larger;
+background-color: black ;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-shadow: 1vw 1vw 1vw #000, 0 0 2vw #00ffff, 0 0 2vw #adfcf5, 0 0 2vw #2c8288
+}
+p{
+color:white;
+}
+
+.img{
+max-width: 250px;
+width: 100%;
+align-items: center;
+}
+
+
+p ,h1 h2 h3 {
+color: black;
+
+
+}
+
+#logo{
+  animation: logo 1s; 
+  animation-name: logo;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count:infinite;
+  animation-direction: alternate; 
+  animation-fill-mode: both;
+  
+
+ }
+@keyframes logo{
+   
+  from {
+    transform: translatex(0px);
+  }
+to {
+  transform:translatex(calc(100vw - 780px))
+  }
+  
+}
+
+
+.carousel-item {
+  background-color: #777;
+  height: 50rem;
+  
+  color: white;
+  margin: 30px;
+ 
+}
+
+.container6{
+width: 800px;
+height:600px;
+box-shadow:  1vw 1vw 1vw #000, 0 0 2vw #121312, 0 0 2vw #0a0a0a, 0 0 2vw #111111 ;
+margin-left: 50%
+
+  
+}
+.promo{
+  
+  margin-top: 10px;
+  
+  display: flex;
+  width: 100vh;
+  margin-left: 45px;
+ 
+ 
+      }
+
+      .tags{
+  color: white;
+  background-color: rgb(252, 32, 16);
+  width: 150px;
+  margin-left: 200px;
+          text-align: center;
+          text-shadow: 1px 1px 1px black;
+          box-shadow: 5px 5px 5px black;
+          margin-top: 10px;
+      }
+     
+      .bot{
+        border-radius: 5px;
+        color: white;
+        text-shadow: 1px 1px 1px black;
+        background-color: tomato;
+     margin-bottom: 15px;
+     margin-left: 10px;
+      }
+
+      .promo1{
+  box-shadow: 3px 3px 3px black;
+  margin-top: 10px;
+      width: 200px;
+      height: 300px;
+      display: flex;
+      margin-left: 50px;
+      margin-bottom: 30px;
+      
+
+
+
+      }
+
+      .tags{
+  color: white;
+  background-color: rgb(252, 32, 16);
+  width: 150px;
+  margin-left: 200px;
+          text-align: center;
+          text-shadow: 1px 1px 1px black;
+          box-shadow: 5px 5px 5px black;
+          margin-top: 10px;
+      }
+     
+      .bot{
+        border-radius: 5px;
+        color: white;
+        text-shadow: 1px 1px 1px black;
+        background-color: tomato;
+     margin-bottom: 15px;
+     margin-left: 10px;
+      }
+
+
+p,h1,h2,h3{
+font-family: 'Montserrat', sans-serif;
+
+
+}
+.promocao{
+
+box-shadow:  1vw 1vw 1vw #000, 0 0 2vw #121312, 0 0 2vw #0a0a0a, 0 0 2vw #111111 ;
+margin: 10px;
+
+
+}
+#logoSE{
+
+  animation-name: logo;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count:infinite;
+  animation-direction: alternate; 
+
+ }
+@keyframes logo{
+   
+  from {
+    transform: translatex(0px);
+  }
+to {
+  transform:translatex(calc(100vw - 780px))
+  }
+  
+}
+header{
+
+  background-image: url(../img/fundotijolo.jpg);
+
+}
+#carouselbox{
+
+   width: 69rem;
+   margin-left: 40px;
+
+}
+
+#peGrande{
+border: 5px;
+display: flex;
+justify-items: center;
+margin: 15px;
+
+}
+
+
+footer {
+  text-align: center;
+  padding: 40px 0;
+}
+.copyright {
+  padding: 20px;
+  color: #FFFFFF;
+  font-size: 15px;
+ text-align: center;
+}
+
+.linha{
+ border: black 2px solid;  
+}

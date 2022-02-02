@@ -1,0 +1,283 @@
+.box{background-color:#21316B;
+     display: grid;
+      column-gap: 15px;
+
+     row-gap: 15px;
+   grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+
+margin: 20px;
+justify-items: center;
+
+}
+
+    
+    .but{
+      display: flex;
+      bottom: 250px;
+     margin-left: 200px;
+     background-color: #1617C7;
+     border-radius: 10px;
+     color: white;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     text-shadow: 2px 2px 2px black;
+      
+    }
+    
+    .but:hover{
+      color: #FA7E0D;
+     }
+    
+    
+    header{
+
+        background-image: url(../../Assets/SerraBlocks/fundotijolo.jpg);
+      
+      }
+
+
+      .tijoloFora{
+
+        background-color: #0286FA;  color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-shadow: 2px 2px 2px black; border-radius: 5px;
+
+      
+      }
+      .tijoloDentro{
+
+        width: 300px; height: 300px; background-color: rgb(255, 250, 250);
+        box-shadow:    1vw 1vw 1vw #000, 0 0 2vw #131312, 0 0 2vw #141414, 0 0 2vw #0f0f0f 
+
+      }
+
+
+
+
+      #logo{
+        animation: logo 1s; 
+        animation-name: logo;
+        animation-duration: 3s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count:infinite;
+        animation-direction: alternate; 
+        animation-fill-mode: both;
+        max-width: 100vh;
+
+      
+       }
+      @keyframes logo{
+         
+        from {
+          transform: translatex(0px);
+        }
+      to {
+        transform:translatex(calc(100vw - 780px))
+        }
+        
+      }
+      .menu ul{
+        list-style: none;
+        position: relative;
+        background-color: #3D3D94;
+        }
+
+        .menu ul li{
+          width: 150px;
+          float: left;
+          padding: 5px;
+
+          }
+        
+        .menu ul ul li{
+          margin-left: -20px;
+          font-weight: bold;
+            }
+
+
+          .menu{
+            width: 100%;
+            height: 70px;
+            background-color: #3D3D94;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: -10px;
+  
+          
+          }
+          .menu a{
+            font-size: 20px;
+            padding: 15px;
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            background-color: #3D3D94;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-shadow: 2px 2px 2px black;
+            }
+      
+     
+        
+        .menu ul ul{
+        
+        position: absolute;
+        visibility: hidden;
+        }
+        .menu ul li:hover ul{ 
+        visibility: visible;
+        
+        }
+        .menu ul ul li{
+          float: none;
+         
+        }
+        
+        .menu a:hover {
+        color: #FA7E0D;
+        }
+        /*  modificacao do dropdown*/
+        .dropdown{
+          color: white;
+          background-color:  #21316B;
+
+        }
+        .dropdown:hover{
+          color: #FA7E0D;
+          cursor: pointer;
+        }
+        
+        nav a {
+          text-transform: uppercase;
+          color: #000000;
+          font-weight: bold;
+          font-size: 22px;
+          text-decoration: none;
+        }
+
+        #menu{
+          background-image: url(../../Assets/SerraBlocks/fundoCinemaa.jpg);
+          text-align: center;
+          height: 100px ;
+          width: 100%;
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          border: 0px;
+          padding-top: 10px;
+          align-items: center;
+          
+          color: #000;
+          text-shadow: 1vw 1vw 1vw #000, 0 0 2vw #3cff00, 0 0 2vw #1eff00, 0 0 2vw #73ff00;
+          display: flex;
+          align-items:center;
+          justify-content:center;
+          }
+          
+          #menu{
+           
+           animation-name: menu;
+           animation-duration: 1.5s;
+           animation-fill-mode: forwards;
+           max-width: 100;
+
+           
+          }
+          
+          @keyframes menu {
+              0%{
+              opacity: 0;
+              
+          }
+            25%{
+              opacity: 1;
+            }
+            100%{
+              opacity: 1;
+              max-width: 100vw;
+            }
+          }
+
+
+          .animationFadeInFadeOut{
+            animation: fadeInFadeOut 1s linear infinite;
+        }
+        @keyframes fadeInFadeOut{
+            0%{opacity: 1;}
+            50%{opacity: 0.2;}
+            100%{opacity: 1;}
+        }
+
+        footer {
+          text-align: center;
+          padding: 40px 0;
+        }
+        .copyright {
+          padding: 20px;
+          color: #FFFFFF;
+          font-size: 15px;
+         text-align: center;
+        }
+
+#cardContainerD {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #21316B;
+  
+}
+
+#titulo h1{
+  width: 100%;
+  background-color: #FA7E0D;
+  font-size: 40px;
+  padding-left: 30px;
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+  max-height: fit-content;
+  background-color: #27397a;
+  width: 100%;
+}
+
+#comprar {
+  display: relative;
+  width: 60%;
+
+}
+
+#descricao{
+  width: 40%; 
+  margin: 10px; 
+  box-shadow: 3px 3px 3px black; 
+  height: 100%; 
+  width: 39%;
+  right: 10px;
+  display: relative;
+  padding: 40px;
+  color: white;
+}
+
+#boxImagemProd{
+  box-shadow: 3px 3px 3px black; 
+  margin: 10px; 
+  background-color: white; 
+  width: 100%; 
+  height: fit-content;
+}
+
+#descriProd{
+  padding: 30px;
+  margin-left: 60px;
+  color: #21316B;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+#imagemProd{
+  max-width: 600px;
+}
+
+#qtdProd{
+  margin-left: 50px;
+  display: flex;
+}
